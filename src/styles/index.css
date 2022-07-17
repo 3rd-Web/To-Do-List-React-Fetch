@@ -1,12 +1,65 @@
+body {
+    height: 100vh;
+    background: #d9a7c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fffcdc, #d9a7c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fffcdc, #d9a7c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
-/* 
+.todo-container {
+    max-width: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    background: #FFEFBA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #FFEFBA);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #FFEFBA);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    margin: 75px auto;
+    list-style: none;
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 32px;
+  }
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+  h1 {
+    text-align: center;
+    font-family: 'Megrim';
+    font-size: 75px;
+    margin-top: 10px;
+}
 
-*/
+#icon {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.704);
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#remindbox {
+    background-color: rgba(220, 182, 255, 0.257);
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+#buttonstyle {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.475);
+}
+
+#footer {
+    margin-top: 285px;
+}
+
+#inputform {
+    margin-top: 15px;
+}
